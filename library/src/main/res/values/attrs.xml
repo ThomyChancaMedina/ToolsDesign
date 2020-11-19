@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountDownTime">
+        <attr name="prefixText" format="string" />
+        <attr name="suffixText" format="string" />
+        <attr name="timeMilliSeconds" format="string" />
+        <attr name="timeTextSize" format="string" />
+        <attr name="timeTextColor" format="string" />
+        <attr name="descriptionText" format="string" />
+        <attr name="descriptionTextColor" format="string" />
+        <attr name="descriptionTextSize" format="string" />
+        <attr name="innerCircleColor" format="string" />
+        <attr name="outerCircleColor" format="string" />
+        <attr name="clockwise" format="string" />
+        <attr name="animation" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="initials" format="string" />
+    </declare-styleable>
+</resources>
